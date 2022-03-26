@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(73, 9, 121, 0.8855742125951943) 0%,
+    rgba(244, 0, 255, 1) 100%,
+    rgba(3, 153, 216, 1) 100%
+  );
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.lists__pokemons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 2em;
+  padding: 1em;
+  text-align: center;
+}
+.pokemon__img {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 8em;
+  color: #fff;
+  padding: 0.5em;
+}
+.pokemon__img img {
+  height: 200px;
+  width: 100%;
+  margin-top: -5em;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: 2em auto 2em;
+}
